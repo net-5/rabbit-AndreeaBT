@@ -8,8 +8,8 @@ namespace Rabbit
         {
             
           
-            Rabbit myRabbit = new Rabbit(MammalType.Rabbit,"Cinnabon", "Blue", "Brown", "Female");
-            Console.WriteLine($"The {MammalType.Rabbit} is a mammal!");
+            Rabbit myRabbit = new Rabbit("Rabbit", "Cinnabon", "Blue", "Brown", "Female");
+            Console.WriteLine($"The {myRabbit.MammalSpecies} is a mammal!");
             Console.WriteLine($"The gender of the rabbit is {myRabbit.Gender}");
             Console.WriteLine($"The rabbit's name is {myRabbit.Name}");
             Console.WriteLine($"Cinnabon has {myRabbit.Eyes} eyes");
