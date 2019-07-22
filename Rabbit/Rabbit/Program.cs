@@ -6,7 +6,11 @@ namespace Rabbit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rabbit myRabbit = new Rabbit("Rabbit", "Cinnabon", "Blue", "Brown", "Female");
+            Console.WriteLine($"The {myRabbit.MammalSpecies} is a mammal!");
+            Console.WriteLine($"The gender of the rabbit is {myRabbit.Gender}");
+            Console.WriteLine($"The rabbit's name is {myRabbit.Name}");
+            Console.WriteLine($"Cinnabon has {myRabbit.Eyes} eyes");
         }
     }
 }
